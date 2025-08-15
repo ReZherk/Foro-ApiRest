@@ -8,3 +8,41 @@
 Usuario de prueba creado al iniciar:
 - email: `user@foro.com`
 - password: `123456`
+
+Proyecto:
+```
+foro-api/
+├─ pom.xml
+├─ src/
+│  ├─ main/
+│  │  ├─ java/
+│  │  │  └─ com/example/foro/
+│  │  │     ├─ ForoApiApplication.java
+│  │  │     ├─ config/
+│  │  │     │  ├─ SecurityConfig.java
+│  │  │     │  └─ SwaggerConfig.java
+│  │  │     ├─ domain/
+│  │  │     │  ├─ topico/Topico.java
+│  │  │     │  └─ usuario/Usuario.java
+│  │  │     ├─ dto/
+│  │  │     │  ├─ AuthRequest.java
+│  │  │     │  ├─ AuthResponse.java
+│  │  │     │  ├─ TopicoRequest.java
+│  │  │     │  └─ TopicoResponse.java
+│  │  │     ├─ repository/
+│  │  │     │  ├─ TopicoRepository.java
+│  │  │     │  └─ UsuarioRepository.java
+│  │  │     ├─ service/
+│  │  │     │  ├─ AuthService.java
+│  │  │     │  ├─ JwtTokenService.java
+│  │  │     │  └─ TopicoService.java
+│  │  │     ├─ web/
+│  │  │     │  ├─ AuthController.java
+│  │  │     │  └─ TopicoController.java
+│  │  │     └─ web/error/RestExceptionHandler.java
+│  │  └─ resources/
+│  │     ├─ application.yml
+│  │     └─ banner.txt (opcional)
+│  └─ test/
+│     └─ java/ (vacío)
+```

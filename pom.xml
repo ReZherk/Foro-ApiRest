@@ -60,9 +60,49 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- Starter para validar datos con anotaciones como @NotNull, @Email, @Size -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
 
+		<!-- Starter para proteger rutas HTTP y manejar autenticación/autorización -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 
+		<!-- API principal de JJWT: permite crear, firmar y validar tokens JWT -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+		</dependency>
 
+		<!-- Implementación interna de JJWT: necesaria en tiempo de ejecución para procesar tokens -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Soporte para serialización/deserialización de claims usando Jackson -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Librería para reducir boilerplate en clases Java (getters, setters, builders, etc.) -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		
 	</dependencies>
 
 	<build>

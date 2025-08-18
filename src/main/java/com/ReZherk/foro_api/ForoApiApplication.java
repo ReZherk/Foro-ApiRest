@@ -1,7 +1,7 @@
 package com.ReZherk.foro_api;
 
-import com.ReZherk.foro.domain.usuario.Usuario;
-import com.ReZherk.foro.repository.UsuarioRepository;
+import com.ReZherk.foro_api.domain.usuario.Usuario;
+import com.ReZherk.foro_api.repository.UsuarioRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

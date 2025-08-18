@@ -102,6 +102,16 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!--
+            SpringDoc OpenAPI Starter para Spring Boot 3.
+            Genera automáticamente documentación Swagger para tus endpoints REST.
+            Accede a la UI en /swagger-ui.html y a los datos en /v3/api-docs.
+        -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.6.0</version>
+		</dependency>
 
 	</dependencies>
 
